@@ -2,7 +2,7 @@ from .styles import DARK_GREY, SOCIALS
 from .components import add_section_header
 
 
-SPONSORS_IMAGE = "https://i.imgur.com/pr09Qdf.jpeg"
+SPONSORS_IMAGE = "https://imgur.com/a/XsZdWXc"
 
 LINKS = {
     "Facebook Page": "https://www.facebook.com/csesoc",
@@ -61,7 +61,7 @@ def add_socials(a):
                 )
 
             with a.tr().td():
-                a.i(_t="Copyright © 2025 CSESoc UNSW. All rights reserved.")
+                a.i(_t="Copyright © 2026 CSESoc UNSW. All rights reserved.")
 
 
 def add_footer(a):
